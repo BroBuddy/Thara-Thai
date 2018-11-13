@@ -204,6 +204,12 @@ INTRO CONTAINER
     text-align: center;
     background-position: center;
 }
+@media only screen and (max-width: 768px) {
+    .starter_container {
+        margin-top: -37px;
+        background: url('../images/tharathai_home-small.jpg') no-repeat center center;
+    }
+}
 .follow_container {
     width: 100%;
     position: absolute;

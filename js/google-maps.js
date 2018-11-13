@@ -22,23 +22,3 @@ function initialize()
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-
-$(document).ready(function ()
-{
-    $(".top-title").fadeIn(1000);
-
-    $(".second-title").fadeIn(3000);
-
-    setTimeout(function()
-    {
-        $('#top hr').addClass('grow');
-    }, 1000);
-});
-
-$(function()
-{
-
-    // Initialize the gallery
-    $('.thumbs a').touchTouch();
-
-});
